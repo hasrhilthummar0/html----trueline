@@ -1,0 +1,51 @@
+/* * {
+    margin: 10px 10px 10px 10px;
+
+}
+
+p {
+    color: rgb(23, 172, 68);
+    background-color: rgb(102, 99, 99);
+}
+
+button {
+    background-color: rgba(42, 151, 165, 0.123);
+    color: darkmagenta;
+    border: 1px solid black;
+    border-radius: 300px;
+}
+
+#first
+{
+    color: red;
+    background-color: yellowgreen;
+}
+
+.second
+{
+    color: blueviolet;
+    background-color: black;
+} */
+#third {
+    text-align: center;
+    /* text-decoration: underline;
+    text-decoration: overline; */
+
+}
+
+h1 {
+    text-decoration: none;
+    text-align: center;
+    font-weight: 900;
+    background-color: antiquewhite;
+}
+
+a {
+    text-decoration: none;
+}
+
+#name 
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+

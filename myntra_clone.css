@@ -1,0 +1,101 @@
+/* nav{
+    background-color:#f5f5f5 ;
+} */
+nav{
+    width: 100%;
+}
+header {
+    height: 100px;
+}
+
+div {
+    display: flex;
+    /* background-color: aqua; */
+
+}
+
+li {
+    display: inline;
+
+}
+
+.logo {
+    height: 70px;
+    background-color: aqua;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    margin-right: 20px;
+}
+
+.left {
+    background-color: aqua;
+    height: 71px;
+}
+
+input {
+    height: 40px;
+    width: 35%;
+    margin: 7px 0px 0px 30px;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+
+.profile {
+    height: 35px;
+    width: 45px;
+    margin: 7px 2px 0px 15px;
+
+}
+
+.text {
+    padding: 10px;
+    margin: 20px;
+}
+
+.main_profile {
+    margin: 0px 0px 0px 15px;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+
+.watchlist {
+    height: 35px;
+    width: 45px;
+    margin: 7px 2px 0px 15px;
+   
+
+}
+
+.watchlist1 {
+    margin: 0px 0px 0px 26px;
+    text-transform: capitalize;
+
+}
+.beg
+{
+    height: 35px;
+    width: 45px;
+    margin: 7px 2px 0px 15px;
+}
+.beg_title
+{
+    margin: 0px 0px 0px 26px;
+    text-transform: capitalize;
+}
+.first_image
+{
+    height: 500px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.second_image
+{
+    height: 500px;
+    width: 100%;
+    margin-bottom: 10px;
+}

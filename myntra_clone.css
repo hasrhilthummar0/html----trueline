@@ -1,15 +1,17 @@
 /* nav{
     background-color:#f5f5f5 ;
 } */
-nav{
+nav {
     width: 100%;
 }
+
 header {
     height: 100px;
 }
 
 div {
     display: flex;
+    
     /* background-color: aqua; */
 
 }
@@ -50,6 +52,9 @@ input {
     margin: 7px 2px 0px 15px;
 
 }
+ul{
+    margin: 20px 10px 10px 0px;
+}
 
 .text {
     padding: 10px;
@@ -66,8 +71,6 @@ input {
     height: 35px;
     width: 45px;
     margin: 7px 2px 0px 15px;
-   
-
 }
 
 .watchlist1 {
@@ -75,27 +78,204 @@ input {
     text-transform: capitalize;
 
 }
-.beg
-{
+
+.beg {
     height: 35px;
     width: 45px;
     margin: 7px 2px 0px 15px;
 }
-.beg_title
-{
+
+.beg_title {
     margin: 0px 0px 0px 26px;
     text-transform: capitalize;
 }
-.first_image
-{
+
+.first_image {
     height: 500px;
     width: 100%;
     margin-bottom: 10px;
 }
 
-.second_image
-{
+.second_image {
     height: 500px;
     width: 100%;
     margin-bottom: 10px;
+}
+
+.middle {
+    font-size: 30px;
+    margin: 50px 0 10px 30px;
+    color: #3e4152;
+}
+
+.p {
+    height: 100px;
+}
+
+.middle_contain {
+    height: 100px;
+    width: 25%;
+    display: inline;
+
+}
+
+h5 {
+    text-transform: capitalize;
+}
+
+
+/* first section images */
+
+/* img {
+    align-items: center;
+    text-align: center;
+} */
+
+.shoes1 {
+    padding: 0px;
+    height: 300px;
+    width: 315px;
+    /* position: cover; */
+    /* position: relative; */
+}
+
+.image2 {
+    /* border: 1px solid black; */
+    height: 300px;
+    width: 315px;
+    padding: 0px;
+    /* position: relative; */
+}
+
+.image3 {
+    height: 300px;
+    width: 315px;
+    padding: 0px;
+    /* position: relative; */
+}
+
+.image4 {
+    height: 300px;
+    width: 300px;
+    padding: 0px;
+}
+
+/* second setion image */
+
+
+ .second_section{
+
+    display:inline-block;
+} 
+
+.second_sectionimg1
+{
+    height: 300px;
+    width: 315px;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+.second_sectionimg2
+{
+    height: 300px;
+    width: 311px;
+    padding: 0px;
+}
+
+.second_sectionimg3
+{
+    height: 300px;
+    width: 312px;
+    padding: 0px;
+
+}
+
+.second_sectionimg4
+{
+    height: 300px;
+    width: 300px;
+    padding: 0px;
+}
+.thirdrow
+{
+    display:inline-block;
+}
+.oneimage{
+    height: 300px;
+    width: 315px;
+    padding: 0px;
+    margin-top: 20px;
+    border: 1px solid black;   
+    border:none;
+}
+.shirt
+{
+    height: 300px;
+    width: 315px;
+    padding: 0px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border: none;
+}
+.shirt1
+{
+    height: 300px;
+    width: 307px;
+    padding: 0px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border: none;
+}
+.shirt2
+{
+    height: 300px;
+    width: 302px;
+    padding: 0;
+    margin-top: 20px;
+    border: 1px solid black;
+    border: none;
+
+ 
+}
+h2
+{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 50px 0 10px 30px;
+    color: #3e4152;
+  
+}
+.ethnic
+{
+ 
+    height: 300px;
+    width: 250px;
+   
+}
+.ethnic1
+{
+    height: 300px;
+    width: 250px;
+
+}
+.ethnic_img
+{
+    padding: 0px 0px 0px 301px;
+    height: 300px;
+    width: 319px;
+}
+.ethnic_imgg
+{
+   
+    height: 300px;
+    width: 251px;
+    margin: 0px 0px 0px -112px;
+
+}
+.ethnic_imgg1
+{
+    height: 300px;
+    width: 251px;
+    margin: 0px 0px 0px -10px;
 }

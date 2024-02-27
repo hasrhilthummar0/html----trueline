@@ -1,6 +1,12 @@
 /* nav{
     background-color:#f5f5f5 ;
 } */
+/* *
+{
+    margin: 0;
+    padding: 0;
+
+} */
 nav {
     width: 100%;
 }
@@ -11,12 +17,12 @@ header {
 
 div {
     display: flex;
-    
+
     /* background-color: aqua; */
 
 }
 
-li {
+.hh {
     display: inline;
 
 }
@@ -52,7 +58,8 @@ input {
     margin: 7px 2px 0px 15px;
 
 }
-ul{
+
+.category {
     margin: 20px 10px 10px 0px;
 }
 
@@ -163,54 +170,42 @@ h5 {
 /* second setion image */
 
 
- .second_section{
+.second_section {
 
-    display:inline-block;
-} 
+    display: inline-block;
+}
 
-.second_sectionimg1
-{
+.second_sectionimg1 {
     height: 300px;
     width: 315px;
     padding: 0px;
     margin-top: 20px;
 }
 
-.second_sectionimg2
-{
+.second_sectionimg2 {
     height: 300px;
     width: 311px;
     padding: 0px;
 }
 
-.second_sectionimg3
-{
+.second_sectionimg3 {
     height: 300px;
     width: 312px;
     padding: 0px;
 
 }
 
-.second_sectionimg4
-{
+.second_sectionimg4 {
     height: 300px;
     width: 300px;
     padding: 0px;
 }
-.thirdrow
-{
-    display:inline-block;
+
+.thirdrow {
+    display: inline-block;
 }
-.oneimage{
-    height: 300px;
-    width: 315px;
-    padding: 0px;
-    margin-top: 20px;
-    border: 1px solid black;   
-    border:none;
-}
-.shirt
-{
+
+.oneimage {
     height: 300px;
     width: 315px;
     padding: 0px;
@@ -218,8 +213,17 @@ h5 {
     border: 1px solid black;
     border: none;
 }
-.shirt1
-{
+
+.shirt {
+    height: 300px;
+    width: 315px;
+    padding: 0px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border: none;
+}
+
+.shirt1 {
     height: 300px;
     width: 307px;
     padding: 0px;
@@ -227,8 +231,8 @@ h5 {
     border: 1px solid black;
     border: none;
 }
-.shirt2
-{
+
+.shirt2 {
     height: 300px;
     width: 302px;
     padding: 0;
@@ -236,46 +240,210 @@ h5 {
     border: 1px solid black;
     border: none;
 
- 
+
 }
-h2
-{
+
+h2 {
     text-transform: uppercase;
     font-size: 30px;
     margin: 50px 0 10px 30px;
     color: #3e4152;
-  
+
 }
-.ethnic
-{
- 
-    height: 300px;
-    width: 250px;
-   
-}
-.ethnic1
-{
+
+.ethnic {
+
     height: 300px;
     width: 250px;
 
 }
-.ethnic_img
-{
+
+.ethnic1 {
+    height: 300px;
+    width: 250px;
+
+}
+
+.ethnic_img {
     padding: 0px 0px 0px 301px;
     height: 300px;
     width: 319px;
 }
-.ethnic_imgg
-{
-   
+
+.ethnic_imgg {
+
     height: 300px;
     width: 251px;
     margin: 0px 0px 0px -112px;
 
 }
-.ethnic_imgg1
-{
+
+.ethnic_imgg1 {
     height: 300px;
     width: 251px;
     margin: 0px 0px 0px -10px;
+    /* position: fixed; */
+}
+
+
+/* footer*/
+
+.hr {
+    opacity: 0.4;
+}
+
+.main_footer {
+    background-color: #FAFBFC;
+}
+
+/* .footer
+{
+    width: 100%;
+    height: 300px;
+    font-weight: 400;
+   margin:20px 33px 0px; 
+   
+} */
+
+.online {
+    font-weight: bold;
+    font-size: large;
+    margin: 30px;
+}
+
+
+.name {
+    font-weight: 200px;
+    display: block;
+    margin-top: 5px;
+    /* margin-right: 100px; */
+}
+
+.first {
+    display: block;
+    list-style-type: none;
+    text-transform: capitalize;
+    margin-right: 10px;
+    font-size: small;
+}
+
+li {
+    list-style-type: none;
+    text-transform: uppercase;
+
+}
+
+.online_second {
+    margin: -40px 100px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.name2 {
+    display: inline;
+    margin: 5px 0px 5px -290px;
+    display: block;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.website {
+    margin: -38px 0px 11px 112px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.playstore {
+    height: 50px;
+    width: 150px;
+    margin: 10px 10px 10px -220px;
+}
+
+.playstore1 {
+    height: 50px;
+    width: 150px;
+    margin-top: 10px;
+}
+
+.touch {
+    margin: 100px 0px 0px -300px;
+}
+
+.fb {
+    height: 30px;
+    margin: 140px 0px 0px -110px;
+}
+
+.ig {
+    height: 30px;
+    margin: 140px 9px 5px 20px;
+}
+
+.tw {
+    height: 30px;
+    margin: 140px 0px 0px 15px;
+}
+
+.yt {
+    height: 30px;
+    width: 30px;
+    margin: 140px 7px 0px 18px;
+}
+
+.original {
+    height: 50px;
+    width: 50px;
+    margin: -50px 200px;
+}
+
+.sample {
+    margin: -43px 2px 8px -157px;
+}
+
+.return {
+    height: 50px;
+    width: 50px;
+    margin: 20px 0px 0px -219px;
+}
+
+.sample1 {
+    margin: 27px 0px 0px 41px;
+}
+
+.down {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: large;
+    margin: 40px;
+}
+
+.uselink
+{
+    margin: 90px 0px 0px -176px ;
+    font-size: small;
+}
+
+.over
+{
+    opacity: 0.4;
+}
+
+
+.copy
+{
+    height: 10px;
+    text-align: center;
+    align-items: center;
+    margin-top: auto;
+    font-weight: 500px;
+}
+
+.love
+{
+    margin: 220px 620px 0px auto;
+}
+
+footer{
+    background-color: azure;
 }
